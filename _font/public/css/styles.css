@@ -1,0 +1,69 @@
+
+
+h1, h2,h3,h4
+{
+  color: #444;  
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+#reservation{
+    background: #ea5b31;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#buttonreser{
+    padding: 10px;
+    margin-left: 10px;
+}
+.comment
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 5px;
+    border: 2px solid #ea5b31;
+}
+#how ul
+{
+    margin: 20px 0;
+    background: #ea5b31;
+}
+#how ul li
+{
+    width: 300px;
+    float:left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+#how h4
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#how p
+{
+    margin-bottom: 20px;
+}
+
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+.footer{
+    
+    background: #444;
+    color: #fff;
+}
+

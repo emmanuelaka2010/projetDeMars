@@ -1,0 +1,36 @@
+{
+  "name": "projetmars",
+  "version": "1.0.0",
+  "description": "Projet du mois de Mars sur le terme: Alimentation. Site internet représentant un restaurant.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Emmanuel Aka",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-register": "^6.26.0",
+    "bcrypt": "^3.0.5",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-mysql-session": "^2.1.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.1",
+    "nodemon": "^1.18.10",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "promise-mysql": "^3.3.1",
+    "session-file-store": "^1.2.0",
+    "swagger": "^0.7.5",
+    "twig": "^1.13.2",
+    "ui": "^0.2.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1"
+  }
+}

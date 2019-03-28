@@ -1,0 +1,22 @@
+{% include 'header.twig' %}
+<div style = "clear: both"></div>
+
+<h1>Bienvenue<h1>
+<h3 class="text-center">Faire une réservation<a href="/index"><span style="font-size: 20px; color: #ea5b31;">  ICI</span></a></h3>
+    <div class="container mt-5 mb-5 text-center">
+        <h2>Modifier votre mot de passe</h2> 
+    <form action="/modification" method="post">
+      <div class="form-group">
+        <input type="password" name="password" class="form-control">
+      </div>
+      <button type="submit" class="btn btn-primary">Modidier</button>
+    </form>
+    </div>
+    </div>
+<div style = "clear: both"></div>
+    {% include 'footer.twig' %}
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
